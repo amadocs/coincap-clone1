@@ -1,5 +1,4 @@
-import {ADD_TO_CART} from './constants'
-import {REMOVE_FROM_CART} from './constants'
+import {ADD_TO_CART, REMOVE_FROM_CART, EMPTY_CART} from './constants'
 import { GET_ASSETS, GET_ASSETS_SUCCESS, GET_ASSETS_FAIL } from './constants'
 
 export const addToCart = (data)=>{
